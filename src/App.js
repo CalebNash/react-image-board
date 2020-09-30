@@ -36,7 +36,7 @@ class ImageForm extends React.Component {
           <label htmlFor="caption">Enter caption.</label>
           <input type="text" className="form-control" id="caption" name="caption" value={this.state.caption} onChange={this.handleInput}/>
         </div>
-        <button className="btn btn-primary">Add Student</button>
+        <button className="btn btn-primary">Add Picture</button>
     </form>
     )
   }
