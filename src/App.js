@@ -46,7 +46,7 @@ class ImageForm extends React.Component {
 class ImageList extends React.Component{
   render() {
     console.log('this is a test ', this.props.images);
-    const images = this.props.images.map((image, index) => <li className='col-4' key={index}><img src={image.image} alt="#"/><p>{image.caption}</p></li>)
+    const images = this.props.images.map((image, index) => <li className='col-12 col-md-4' key={index}><div className='col-12'><img src={image.image} alt="#"/><p>{image.caption}</p></div></li>)
     return(
       <ul className="row no-gutters">{images}</ul>
     )
